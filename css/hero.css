@@ -84,6 +84,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 15px;
+  max-width: 150px;
 }
 .hero
   .left-under
@@ -112,7 +113,7 @@ body {
 .hero .left-under .left-under-second {
   display: flex;
   align-items: center;
-  margin-left: 75px;
+  margin-left: 40px;
 }
 .hero .left-under .left-under-second .left-under-second-icon {
   width: 50px;
