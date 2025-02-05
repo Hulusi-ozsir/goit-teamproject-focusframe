@@ -14,6 +14,11 @@ html, body{
   display: block;
 }
 
+.about-us-container{
+  width: 1080px;
+  height: 1172px;
+}
+
 .about-us-title{
   font-family: "DM Sans", serif;
   font-weight: 500;
@@ -32,6 +37,7 @@ color: #BEA69E;
 .about-us-flexbox{
   display: flex;
   gap: 50px;
+  justify-content: space-between;
 }
 
 .about-us-picframe{
@@ -43,6 +49,7 @@ color: #BEA69E;
   height: 240px;
   width: 560px;
   border-radius: 1000px;
+  flex-shrink: 0;
 }
 
 .about-us-textbox{
@@ -62,13 +69,13 @@ color: #BEA69E;
 .about-us-paragraph-first{
 height: 220px;
 width: 314px;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-bottom: 20px;
+margin: 0%;
 }
 
 .about-us-paragraph-second{
   height: 215px;
   width: 276px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  margin: 0%;
   }
