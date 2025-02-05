@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
 }
 .hero .left .left-upper .left-upper-h {
   max-width: 590px;
