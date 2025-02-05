@@ -1,0 +1,10 @@
+html, body{
+  width: 1440px;
+  font-family: "DM+sans", sans-serif;
+  background-color: black;
+  background-image: url(../images/background-image.png);
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  
+}
