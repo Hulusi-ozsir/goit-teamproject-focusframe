@@ -1,7 +1,7 @@
-body{
+body {
   background-color: black;
 }
-.container{
+.container {
   font-family: "DM sans", sans-serif;
   display: block;
   position: relative;
@@ -11,8 +11,7 @@ body{
   background-color: black;
 }
 .hero {
-  width: 1240px;
-  height: 600px;
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -20,7 +19,6 @@ body{
   background-color: #1d1d1d;
   border-radius: 30px;
   gap: 100px;
-  margin-left: 100px;
 }
 .hero .left .left-upper {
   display: flex;
@@ -29,8 +27,7 @@ body{
   padding: 0 auto;
 }
 .hero .left .left-upper .left-upper-h {
-  width: 590px;
-  height: 204px;
+  max-width: 590px;
   color: #fff;
   font-size: 64px;
   line-height: 1.06;
@@ -45,8 +42,7 @@ body{
   color: #bea69e;
 }
 .hero .left .left-upper .left-upper-p {
-  width: 418px;
-  height: 54px;
+  max-width: 418px;
   color: #fff;
   font-size: 14px;
   line-height: 1.29;
@@ -99,10 +95,13 @@ body{
   line-height: 1.25;
   letter-spacing: 0.04em;
   color: #fff;
-  width: 90px;
   text-decoration: none;
 }
-.hero .left-under .left-under-first .left-under-first-title .left-under-first-title-a:hover{
+.hero
+  .left-under
+  .left-under-first
+  .left-under-first-title
+  .left-under-first-title-a:hover {
   border-bottom: 3px solid #fff;
 }
 .hero .left-under .left-under-first .left-under-first-title .icon-hero-arrow {
@@ -149,12 +148,8 @@ body{
   font-weight: 500;
   color: #fff;
 }
-.hero .right {
-  margin-top: 83px;
-  background-color: transparent;
-}
 .advertisement {
-  width: 1440px;
+  width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
   display: flex;
   justify-content: center;
@@ -163,15 +158,15 @@ body{
 }
 .advertisement .advertisement-title {
   font-family: "DM sans", sans-serif;
-  width: 1240px;
   font-size: 45px;
   line-height: 1.08;
   letter-spacing: 0.02em;
   font-weight: 400;
+  display: flex;
   text-align: center;
   color: #fff;
   background-color: black;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 .advertisement .advertisement-title .advertisement-title-one {
@@ -179,4 +174,60 @@ body{
 }
 .advertisement .advertisement-title .advertisement-title-two {
   color: #bea69e;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .hero {
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .hero .left {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .hero .right {
+    margin-top: -100px;
+    height: 500px;
+  }
+  .advertisement {
+    width: 100%;
+    margin-top: 75px;
+  }
+
+  .advertisement .advertisement-title {
+    font-size: 24px;
+    display: block;
+    margin: 0 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .container {
+    width: 100%;
+  }
+  .hero {
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .hero .left {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .hero .right {
+    margin-top: -100px;
+    height: 450px;
+  }
+  .advertisement {
+    width: 100%;
+    margin-top: 75px;
+  }
+  .advertisement .advertisement-title {
+    font-size: 36px;
+    display: block;
+    margin: 0 0;
+  }
 }
