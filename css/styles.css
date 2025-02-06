@@ -52,6 +52,7 @@ color: #BEA69E;
   flex-shrink: 0;
 }
 
+
 .about-us-textbox{
   font-family: "DM Sans", serif;
   font-weight: 400;
@@ -82,9 +83,9 @@ margin: 0%;
 
   /*about us mobile*/
 
-  @media (min-width: 320px) and (max-width: 768px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     
-    body {
+    html, body {
       max-width: 375px;
       width: 100%;
       margin: auto;
@@ -108,9 +109,11 @@ margin: 0%;
     }
 
     .about-us-picframe{
-      width: 209px;
-      height: 335px;
+      width: 335px;
+      height: 209px;
+      background-image: url(../images/about-us-img.jpg)
     }
+    
 
     .about-us-textbox{
       width: 335px;
@@ -138,7 +141,7 @@ margin: 0%;
 
   @media (min-width: 768px) and (max-width: 1240px){
 
-    body {
+    html, body {
       max-width: 768px;
       width: 100%;
       margin: auto;
@@ -161,8 +164,9 @@ margin: 0%;
     }
 
     .about-us-picframe{
-      width: 340px;
-      height: 704px;
+      width: 704px;
+      height: 340px;
+      background-image: url(../images/about-us-img-2x.jpg);
     }
 
     .about-us-textbox{
@@ -189,7 +193,7 @@ margin: 0%;
 
   @media (min-width: 1240px) and (max-width: 1440px){
 
-    body {
+    html, body {
       max-width: 1280px;
       width: 100%;
       margin: auto;
@@ -211,8 +215,8 @@ margin: 0%;
     }
 
     .about-us-picframe{
-      width: 260px;
-      height: 488px;
+      width: 488px;
+      height: 260px;
     }
 
     .about-us-textbox{
