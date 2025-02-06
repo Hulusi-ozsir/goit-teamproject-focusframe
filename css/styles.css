@@ -664,7 +664,7 @@ color: #BEA69E;
 }
 
 .about-us-picframe{
-  background-image: url(../images/about-us-img-3x.jpg);
+  background-image: url(./images/about-us-img-3x.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -734,7 +734,7 @@ margin: 0%;
     .about-us-picframe{
       width: 335px;
       height: 209px;
-      background-image: url(../images/about-us-img.jpg)
+      background-image: url(./images/about-us-img.jpg)
     }
     
 
@@ -789,7 +789,7 @@ margin: 0%;
     .about-us-picframe{
       width: 704px;
       height: 340px;
-      background-image: url(../images/about-us-img-2x.jpg);
+      background-image: url(./images/about-us-img-2x.jpg);
     }
 
     .about-us-textbox{
