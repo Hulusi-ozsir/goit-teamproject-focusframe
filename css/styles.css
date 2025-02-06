@@ -79,3 +79,159 @@ margin: 0%;
   padding-bottom: 20px;
   margin: 0%;
   }
+
+  /*about us mobile*/
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    
+    body {
+      max-width: 375px;
+      width: 100%;
+      margin: auto;
+    }
+
+    .about-us-container {
+      width: 335px;
+      height: 630px;
+    }
+
+    .about-us-title{
+      font-size: 28px;
+      line-height: 32px;
+      margin-bottom: 40px;
+    }
+
+    .about-us-flexbox{
+      width: 335px;
+      height: 558px;
+      flex-direction: column;
+    }
+
+    .about-us-picframe{
+      width: 209px;
+      height: 335px;
+    }
+
+    .about-us-textbox{
+      width: 335px;
+      height: 309px;
+      flex-direction: column;
+      font-size: 14px;
+      letter-spacing: -2%;
+      line-height: 18px;
+      gap: 20px;
+    }
+
+    .about-us-paragraph-first{
+      width: 335px;
+      height: 162px;
+    }
+
+    .about-us-paragraph-second{
+      width: 335px;
+      height: 127px;
+    }
+
+  }
+
+  /*tablet*/
+
+  @media (min-width: 768px) and (max-width: 1240px){
+
+    body {
+      max-width: 768px;
+      width: 100%;
+      margin: auto;
+    }
+
+    .about-us-container {
+      width: 704px;
+      height: 734px;
+    }
+
+    .about-us-title{
+      font-size: 3em;
+      line-height: 54px;
+    }
+
+    .about-us-flexbox{
+      width: 704px;
+      height: 630px;
+      flex-direction: column;
+    }
+
+    .about-us-picframe{
+      width: 340px;
+      height: 704px;
+    }
+
+    .about-us-textbox{
+      width: 600px;
+      height: 240px;
+      font-size: 1em;
+      letter-spacing: -2%;
+      line-height: 20px;
+      gap: 40px;
+    }
+
+    .about-us-paragraph-first{
+      width: 280px;
+      height: 240px;
+    }
+
+    .about-us-paragraph-second{
+      width: 280px;
+      height: 215px;
+    }
+  }
+  
+  /*tablet*/
+
+  @media (min-width: 1240px) and (max-width: 1440px){
+
+    body {
+      max-width: 768px;
+      width: 100%;
+      margin: auto;
+    }
+
+    .about-us-container {
+      width: 704px;
+      height: 734px;
+    }
+
+    .about-us-title{
+      font-size: 3em;
+      line-height: 54px;
+    }
+
+    .about-us-flexbox{
+      width: 704px;
+      height: 630px;
+      flex-direction: column;
+    }
+
+    .about-us-picframe{
+      width: 340px;
+      height: 704px;
+    }
+
+    .about-us-textbox{
+      width: 600px;
+      height: 240px;
+      font-size: 1em;
+      letter-spacing: -2%;
+      line-height: 20px;
+      gap: 40px;
+    }
+
+    .about-us-paragraph-first{
+      width: 280px;
+      height: 240px;
+    }
+
+    .about-us-paragraph-second{
+      width: 280px;
+      height: 215px;
+    }
+  }
