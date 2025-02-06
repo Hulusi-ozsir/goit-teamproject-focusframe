@@ -83,7 +83,7 @@ margin: 0%;
 
   /*about us mobile*/
 
-  @media (min-width: 320px) and (max-width: 767px) {
+  @media (max-width: 767px) {
     
     html, body {
       max-width: 375px;
@@ -139,7 +139,7 @@ margin: 0%;
 
   /*tablet*/
 
-  @media (min-width: 768px) and (max-width: 1240px){
+  @media (max-width: 1279px){
 
     html, body {
       max-width: 768px;
@@ -191,7 +191,7 @@ margin: 0%;
   
   /*1280*/
 
-  @media (min-width: 1240px) and (max-width: 1440px){
+  @media (max-width: 1440px){
 
     html, body {
       max-width: 1280px;
