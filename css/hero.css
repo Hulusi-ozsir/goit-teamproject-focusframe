@@ -63,7 +63,10 @@ body {
   padding: 0;
   margin-left: 50px;
 }
-.hero .left-under .left-under-first .left-under-first-img-first {
+.hero .left-under .left-under-first .left-under-first-img{
+  display: inline-block;
+}
+.hero .left-under .left-under-first .left-under-first-img .left-under-first-img-first {
   border: 3px solid #1d1d1d;
   border-radius: 50%;
   z-index: 3;
@@ -176,7 +179,8 @@ body {
 .advertisement .advertisement-title .advertisement-title-two {
   color: #bea69e;
 }
-@media (min-width: 320px) and (max-width: 767px) {
+
+@media (min-width: 321px) and (max-width: 767px) {
   .container {
     width: 100%;
   }
@@ -189,7 +193,6 @@ body {
     margin: 0 auto;
     padding: 0;
   }
-
   .hero .right {
     margin-top: -100px;
     height: 500px;
@@ -198,13 +201,13 @@ body {
     width: 100%;
     margin-top: 75px;
   }
-
   .advertisement .advertisement-title {
     font-size: 24px;
     display: block;
     margin: 0 0;
   }
 }
+
 @media (min-width: 768px) and (max-width: 1279px) {
   .container {
     width: 100%;
