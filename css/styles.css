@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
   width: 1440px;
   font-family: "DM+sans", sans-serif;
   background-color: black;
@@ -6,7 +7,6 @@ html, body{
   margin: 0 auto;
   padding: 0;
   position: relative;
-  
 }
 /* Our Mentors  */
 .our-mentors {
@@ -116,7 +116,7 @@ html, body{
 }
 
 /* Our Mentors mobile Part */
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
   body {
     max-width: 375px;
     width: 100%;
@@ -130,6 +130,7 @@ html, body{
   .our-mentors .our-mentors-container {
     width: 325px;
     height: 1152px;
+    background-color: black;
   }
   .our-mentors .our-mentors-container .our-mentors-ul {
     width: 325px;
@@ -186,6 +187,7 @@ html, body{
   .our-mentors .our-mentors-container {
     width: 704px;
     height: 697px;
+    background-color: black;
   }
   .our-mentors .our-mentors-container .our-mentors-ul {
     width: 488px;
