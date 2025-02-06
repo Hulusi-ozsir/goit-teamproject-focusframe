@@ -185,19 +185,19 @@ margin: 0%;
     }
   }
   
-  /*tablet*/
+  /*1280*/
 
   @media (min-width: 1240px) and (max-width: 1440px){
 
     body {
-      max-width: 768px;
+      max-width: 1280px;
       width: 100%;
       margin: auto;
     }
 
     .about-us-container {
-      width: 704px;
-      height: 734px;
+      width: 1080px;
+      height: 364px;
     }
 
     .about-us-title{
@@ -206,32 +206,31 @@ margin: 0%;
     }
 
     .about-us-flexbox{
-      width: 704px;
-      height: 630px;
-      flex-direction: column;
+      width: 1080px;
+      height: 260px;
     }
 
     .about-us-picframe{
-      width: 340px;
-      height: 704px;
+      width: 260px;
+      height: 488px;
     }
 
     .about-us-textbox{
-      width: 600px;
-      height: 240px;
+      width: 552px;
+      height: 260px;
       font-size: 1em;
       letter-spacing: -2%;
       line-height: 20px;
-      gap: 40px;
+      gap: 20px;
     }
 
     .about-us-paragraph-first{
-      width: 280px;
-      height: 240px;
+      width: 268px;
+      height: 260px;
     }
 
     .about-us-paragraph-second{
-      width: 280px;
+      width: 264px;
       height: 215px;
     }
   }
