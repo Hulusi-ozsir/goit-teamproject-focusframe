@@ -264,8 +264,8 @@ body {
   }
   .rv-top {
     display: flex;
-    justify-content: space-evenly;
-    /* flex-direction: column; */
+    justify-content: flex-start;
+
     width: 600px;
     height: 56px;
   }
