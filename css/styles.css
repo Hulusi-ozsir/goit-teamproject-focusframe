@@ -1358,3 +1358,205 @@ body {
 /* Our Mentors Tablet Part BİTTİ */
 
 /* Our Mentors BİTTİ */
+/* Signup Başlangıç */
+html, body  {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  background-color: #121212;
+}
+
+.signup-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  gap: 200px;
+}
+
+.signup-section {
+  flex: 1;
+  max-width: 500px;
+}
+
+.signup-title {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.signup-title span {
+  color: #BEA69E;
+}
+
+.signup-description {
+  color: white;
+  margin-bottom: 32px;
+}
+
+.signup-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.signup-input, .signup-textarea {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 16px;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}
+
+.signup-textarea {
+  height: 120px;
+  resize: none;
+}
+
+.signup-button {
+  background: white;
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-privacy-note {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+.signup-a {
+  color: white;
+}
+
+.signup-image-section {
+  flex: 1;
+  position: relative;
+  height: 800px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.lens-container {
+  position: relative;
+  background: #BEA69E;
+  border-radius: 1000px;
+  width: 190px;
+  height: 288px;
+  top: 252px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.signup-img {
+  width: 163px;
+  height: 154px;
+}
+
+
+.camera-container {
+  position: relative;
+  background: #1D1D1D;
+  border-radius: 1000px;
+  width: 350px;
+  height: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 374px) {
+  .signup-container {
+      width: 100%;
+      padding: 12px;
+  }
+
+  .signup-section {
+      width: 100%;
+  }
+
+  .signup-title {
+      font-size: 28px;
+  }
+
+  .signup-description {
+      font-size: 12px;
+  }
+
+  .signup-input, .signup-textarea {
+      font-size: 12px;
+      padding: 12px;
+  }
+
+  .signup-button {
+      font-size: 14px;
+      padding: 12px;
+  }
+
+  .signup-privacy-note {
+      font-size: 10px;
+  }
+}
+/* Responsive Styles */
+@media (max-width: 767px) {
+  html, body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .signup-container {
+      flex-direction: column;
+      width: 100%;
+      padding: 16px;
+  }
+
+  .signup-section {
+      width: 100%;
+      text-align: center;
+  }
+
+  .signup-title {
+      font-size: 32px;
+  }
+
+  .signup-description {
+      font-size: 14px;
+  }
+
+  .signup-contact-form {
+      width: 100%;
+  }
+
+  .signup-input, .signup-textarea {
+      width: 100%;
+      font-size: 14px;
+  }
+
+  .signup-button {
+      width: 100%;
+  }
+
+  .signup-image-section {
+      display: none;
+  }
+}
+
+@media (max-width: 1279px) {
+  .signup-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .signup-image-section {
+      display: none;
+  }
+}
+/* Signup Bitiş */
