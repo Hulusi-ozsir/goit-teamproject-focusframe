@@ -641,7 +641,8 @@ body {
 }
 
 .about-us-container {
-  width: 1080px;
+  width: 1280px;
+  margin: auto;
 }
 
 .about-us-title {
@@ -1172,6 +1173,7 @@ body {
   height: 60px;
 }
 .our {
+  font-size: 48px;
   display: flex;
   font-weight: 500;
   line-height: 1.125;
