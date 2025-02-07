@@ -1,7 +1,7 @@
 html,
 body {
   width: 1440px;
-  font-family: 'DM+sans', sans-serif;
+  font-family: "DM+sans", sans-serif;
   background-color: black;
 }
 .container {
@@ -232,8 +232,8 @@ body {
     margin-top: 21px;
   }
   .mob-close-a {
-    width:32px;
-    height:32px;
+    width: 32px;
+    height: 32px;
   }
   .head-list-link {
     color: black;
@@ -459,10 +459,14 @@ body {
   padding: 0;
   margin-left: 50px;
 }
-.hero .left-under .left-under-first .left-under-first-img{
+.hero .left-under .left-under-first .left-under-first-img {
   display: inline-block;
 }
-.hero .left-under .left-under-first .left-under-first-img .left-under-first-img-first {
+.hero
+  .left-under
+  .left-under-first
+  .left-under-first-img
+  .left-under-first-img-first {
   border: 3px solid #1d1d1d;
   border-radius: 50%;
   z-index: 3;
@@ -630,7 +634,7 @@ body {
     display: block;
     margin: 0 0;
   }
-} 
+}
 .about-us {
   background-color: black;
   display: block;
@@ -1148,9 +1152,10 @@ body {
   .icon-star-empty {
     width: 16px;
     height: 16px;
-  max-width: 1440px;
-  height: 562px;
-  background-color: #121212;
+    max-width: 1440px;
+    height: 562px;
+    background-color: #121212;
+  }
 }
 .our-courses-container {
   position: relative;
@@ -1641,7 +1646,8 @@ body {
 
 /* Our Mentors BİTTİ */
 /* Signup Başlangıç */
-html, body  {
+html,
+body {
   width: 1440px;
   max-width: 100%;
   margin: 0;
@@ -1669,7 +1675,7 @@ html, body  {
 }
 
 .signup-title span {
-  color: #BEA69E;
+  color: #bea69e;
 }
 
 .signup-description {
@@ -1683,7 +1689,8 @@ html, body  {
   gap: 16px;
 }
 
-.signup-input, .signup-textarea {
+.signup-input,
+.signup-textarea {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;
@@ -1726,7 +1733,7 @@ html, body  {
 
 .lens-container {
   position: relative;
-  background: #BEA69E;
+  background: #bea69e;
   border-radius: 1000px;
   width: 190px;
   height: 288px;
@@ -1741,10 +1748,9 @@ html, body  {
   height: 154px;
 }
 
-
 .camera-container {
   position: relative;
-  background: #1D1D1D;
+  background: #1d1d1d;
   border-radius: 1000px;
   width: 350px;
   height: 540px;
@@ -1753,92 +1759,94 @@ html, body  {
   justify-content: center;
 }
 
-
 @media (max-width: 374px) {
   .signup-container {
-      width: 100%;
-      padding: 12px;
+    width: 100%;
+    padding: 12px;
   }
 
   .signup-section {
-      width: 100%;
+    width: 100%;
   }
 
   .signup-title {
-      font-size: 28px;
+    font-size: 28px;
   }
 
   .signup-description {
-      font-size: 12px;
+    font-size: 12px;
   }
 
-  .signup-input, .signup-textarea {
-      font-size: 12px;
-      padding: 12px;
+  .signup-input,
+  .signup-textarea {
+    font-size: 12px;
+    padding: 12px;
   }
 
   .signup-button {
-      font-size: 14px;
-      padding: 12px;
+    font-size: 14px;
+    padding: 12px;
   }
 
   .signup-privacy-note {
-      font-size: 10px;
+    font-size: 10px;
   }
 }
 /* Responsive Styles */
 @media (max-width: 767px) {
-  html, body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  html,
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .signup-container {
-      flex-direction: column;
-      width: 100%;
-      padding: 16px;
+    flex-direction: column;
+    width: 100%;
+    padding: 16px;
   }
 
   .signup-section {
-      width: 100%;
-      text-align: center;
+    width: 100%;
+    text-align: center;
   }
 
   .signup-title {
-      font-size: 32px;
+    font-size: 32px;
   }
 
   .signup-description {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .signup-contact-form {
-      width: 100%;
+    width: 100%;
   }
 
-  .signup-input, .signup-textarea {
-      width: 100%;
-      font-size: 14px;
+  .signup-input,
+  .signup-textarea {
+    width: 100%;
+    font-size: 14px;
   }
 
   .signup-button {
-      width: 100%;
+    width: 100%;
   }
 
   .signup-image-section {
-      display: none;
+    display: none;
   }
 }
 
 @media (max-width: 1279px) {
   .signup-container {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .signup-image-section {
-      display: none;
+    display: none;
   }
 }
 /* Signup Bitiş */
