@@ -264,7 +264,7 @@ body {
   }
   .rv-top {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 
     width: 600px;
     height: 56px;
