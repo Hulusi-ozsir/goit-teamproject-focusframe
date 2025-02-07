@@ -866,6 +866,288 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
+}
+
+.reviews-container {
+  width: 1240px;
+  height: 300px;
+  margin: auto;
+}
+.rv-title-container {
+  width: 171px;
+  height: 54px;
+  gap: 0px;
+  opacity: 0px;
+}
+.rv-title {
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+.rv-box-container {
+  width: 1240px;
+  height: 196px;
+  gap: 20px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 54px;
+}
+.rv-box {
+  width: 610px;
+  height: 196px;
+  gap: 0px;
+  border-radius: 12px;
+  border: 1px solid #ffffff33;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rv-top {
+  display: flex;
+  justify-content: space-between;
+  width: 570px;
+}
+.rv-img {
+  display: flex;
+  width: 211px;
+  height: 56px;
+  align-items: center;
+}
+.rv-m-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+.rv-id {
+  width: 145px;
+  height: 50px;
+  margin-left: 6px;
+}
+.rv-name {
+  margin-top: 0px;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: unset;
+}
+.rv-job {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 0;
+  color: #ffffff80;
+  margin-top: 4px;
+}
+.rv-bottom-text {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 570px;
+  margin: auto;
+  margin-top: 20px;
+}
+.rv-name2 {
+  width: 152px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html,
+  body {
+    width: 375px;
+    margin: auto;
+  }
+  .reviews-section {
+    width: 335px;
+    margin: auto;
+  }
+  .reviews-container {
+    width: 335px;
+    height: 316px;
+  }
+  .rv-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    margin-bottom: unset;
+  }
+  .rv-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .rv-job {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+  }
+  .rv-bottom-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    width: 295px;
+  }
+  .rv-box-container {
+    width: 335px;
+    height: 244px;
+    margin-top: unset;
+    margin-top: 72px;
+  }
+  .rv-box {
+    width: 335px;
+    height: 244px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    align-items: flex-start;
+  }
+  .rv-box2 {
+    display: none;
+  }
+  .rv-top {
+    flex-direction: column;
+    width: 211px;
+    height: 56px;
+    margin-left: 20px;
+  }
+
+  .rv-bottom {
+    width: 295px;
+    margin-left: 20px;
+  }
+  .rv-stars {
+    height: 16px;
+    display: flex;
+    justify-content: flex-end;
+    width: 120px;
+    margin-top: 4px;
+  }
+  .icon-star {
+    width: 12px;
+    height: 12px;
+  }
+  .icon-star-empty {
+    width: 12px;
+    height: 12px;
+  }
+
+  .rv-title-container {
+    height: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1278px) {
+  html,
+  body {
+    width: 768px;
+    margin: auto;
+  }
+  .reviews-section {
+    width: 704px;
+    margin: auto;
+  }
+  .reviews-container {
+    width: 704px;
+    height: 300px;
+    top: 4780px;
+    left: 32px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .rv-box-container {
+    width: 704px;
+    height: 300px;
+    top: 4780px;
+    left: 32px;
+  }
+  .rv-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+  }
+  .rv-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .rv-job {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+  .rv-bottom-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    width: 600px;
+  }
+  .rv-box {
+    display: flex;
+    width: 640px;
+    height: 196px;
+    gap: 0px;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .rv-top {
+    display: flex;
+    justify-content: space-between;
+
+    width: 600px;
+    height: 56px;
+  }
+  .rv-bottom {
+    width: 600px;
+  }
+  .rv-box2 {
+    display: none;
+  }
+  .rv-stars {
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 116px;
+    margin-top: 4px;
+  }
+  .icon-star {
+    width: 16px;
+    height: 16px;
+  }
+  .icon-star-empty {
+    width: 16px;
+    height: 16px;
   max-width: 1440px;
   height: 562px;
   background-color: #121212;
