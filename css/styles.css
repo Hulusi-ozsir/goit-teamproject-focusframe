@@ -11,7 +11,6 @@ body {
   width: 1440px;
   margin: 0 auto;
   padding: 0;
-  background-color: black;
 }
 .header {
   width: 1240px;
@@ -569,7 +568,6 @@ body {
   display: flex;
   text-align: center;
   color: #fff;
-  background-color: black;
   margin: 0 auto;
   padding: 0;
 }
@@ -636,9 +634,7 @@ body {
   }
 }
 .about-us {
-  background-color: black;
   display: block;
-
   margin-bottom: 100px;
   margin-top: 100px;
 }
