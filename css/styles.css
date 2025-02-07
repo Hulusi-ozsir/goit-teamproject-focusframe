@@ -10,7 +10,7 @@ body {
   display: block;
   position: relative;
   width: 1440px;
-  margin: 0 auto;
+  margin: auto;
   padding: 0;
 }
 .header {
