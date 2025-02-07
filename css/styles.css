@@ -3,6 +3,7 @@ body {
   width: 1440px;
   font-family: "DM+sans", sans-serif;
   background-color: black;
+  margin: auto;
 }
 .container {
   font-family: "DM sans", sans-serif;
