@@ -579,26 +579,40 @@ body {
   color: #bea69e;
 }
 
-@media (min-width: 321px) and (max-width: 767px) {
-  .container {
-    width: 100%;
+@media (max-width: 767px) {
+  .body {
+    width: 375px;
   }
   .hero {
-    width: 100%;
     flex-direction: column;
     overflow: hidden;
+    width: 500px;
+    height: 777px;
   }
   .hero .left {
     margin: 0 auto;
     padding: 0;
   }
+  .hero .left .left-upper .left-upper-h {
+    font-size: 40px;
+  }
+  .hero .left .left-upper .left-upper-p {
+    font-size: 10px;
+  }
+  .hero .left-under .left-under-first {
+    display: flex;
+    flex-direction: column;
+  }
+
   .hero .right {
     margin-top: -100px;
     height: 500px;
   }
   .advertisement {
-    width: 100%;
+    width: 588px;
+    height: 72px;
     margin-top: 75px;
+    margin-left: -80px;
   }
   .advertisement .advertisement-title {
     font-size: 24px;
@@ -615,6 +629,8 @@ body {
     width: 100%;
     flex-direction: column;
     overflow: hidden;
+    width: 704px;
+    height: 900px;
   }
   .hero .left {
     margin: 0 auto;
@@ -634,6 +650,7 @@ body {
     margin: 0 0;
   }
 }
+/*About Us */
 .about-us {
   display: block;
   margin-bottom: 100px;
@@ -761,7 +778,7 @@ body {
 
 /*tablet*/
 
-@media (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1279px) {
   html,
   body {
     max-width: 1279px;
@@ -787,8 +804,8 @@ body {
   }
 
   .about-us-picframe {
-    width: 1279px;
-    height: 1000px;
+    width: 704px;
+    height: 340px;
     background-image: url(../images/about-us-img-2x.jpg);
   }
 
@@ -814,7 +831,7 @@ body {
 
 /*1280*/
 
-@media (max-width: 1440px) {
+@media (min-width: 1280px) and (max-width: 1440px) {
   html,
   body {
     max-width: 1280px;
@@ -860,6 +877,8 @@ body {
     height: 215px;
   }
 }
+/*About Us BİTTİ*/
+/*Our Courses */
 * {
   padding: 0;
   margin: 0;
@@ -869,7 +888,9 @@ body {
   justify-content: space-between;
   position: relative;
 }
-
+.our {
+  gap: 10px;
+}
 .reviews-container {
   width: 1240px;
   height: 300px;
@@ -977,7 +998,8 @@ body {
   width: 152px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+/*Our Courses Mobile*/
+@media screen (max-width: 767px) {
   html,
   body {
     width: 375px;
@@ -1065,7 +1087,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1278px) {
+@media screen (min-width: 768px) and (max-width: 1278px) {
   html,
   body {
     width: 768px;
@@ -1299,7 +1321,7 @@ body {
   top: 168px;
 }
 /* XL desktop */
-@media (max-width: 1280px) {
+@media (min-width: 769px) and (max-width: 1280px) {
   .our-courses-section {
     width: 704px;
     height: 1054px;
@@ -1340,30 +1362,44 @@ body {
     margin-top: 0;
   }
 }
-/* tablet */
+/* Mobile */
 @media (max-width: 767px) {
   .our-courses-section {
     width: 704px;
     height: 1054px;
   }
-
+  .our {
+    font-size: 28px;
+  }
   .our-courses-item {
-    width: 679px;
-    height: 80px;
-    gap: 58px;
+    width: 335px;
+    height: 124px;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .our-courses-container {
+    margin: 0;
+    height: 1400px;
   }
   .our-courses-cart {
     width: 320px;
-    height: 924px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
   }
 
   .basics-cart {
-    width: 342px;
-    height: 452px;
+    width: 335px;
+    height: 398px;
+    margin-top: 0px;
   }
   .basics-cart-2 {
-    width: 342px;
-    height: 452px;
+    width: 335px;
+    height: 398px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .icon-01 {
     width: 278px;
@@ -1374,12 +1410,12 @@ body {
     margin: 32px;
   }
   .cart-paragraph {
-    top: 108px;
+    top: 50px;
     width: 278px;
     height: 80px;
   }
 }
-/* mobile */
+/* mobile Small */
 @media (max-width: 374px) {
   .our-courses-section {
     width: 335px;
@@ -1798,7 +1834,6 @@ body {
 @media (max-width: 767px) {
   html,
   body {
-    display: flex;
     justify-content: center;
     align-items: center;
   }
