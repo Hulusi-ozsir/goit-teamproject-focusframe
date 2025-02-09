@@ -13,6 +13,10 @@ body {
   margin: auto;
   padding: 0;
 }
+
+.tablet-header {
+  display: none;
+}
 .header {
   width: 1240px;
   height: 60px;
@@ -323,7 +327,7 @@ body {
   .mobile-big-cont {
     display: flex;
     flex-direction: column;
-    width: 480px;
+    width: 300px;
     height: 1024px;
     background-color: #bea69e;
     justify-content: space-between;
@@ -343,12 +347,12 @@ body {
     font-size: 18px;
   }
   .mb-image-cont {
-    width: 480px;
-    height: 480px;
+    width: 300px;
+    height: 390px;
   }
 
   .mb-image {
-    width: 480px;
+    width: 300px;
   }
   .mob-close {
     display: flex;
@@ -366,6 +370,7 @@ body {
   /*MENÜ AÇÇÇÇÇÇÇÇÇ*/
   .head-is-open {
     display: flex;
+    z-index: 9999999;
   }
 
   /*MENÜ KAPATTTTTTTTTTTT*/
@@ -380,12 +385,12 @@ body {
     align-items: center;
     justify-content: center;
     background: #1d1d1d;
-    margin-right: 2px;
-    display: none;
+    margin-right: 6px;
   }
   .mobile-head-right-cont {
     width: 186px;
     height: 60px;
+    display: none;
   }
   .head-sign {
     width: 70px;
@@ -402,6 +407,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
   }
 
   .head-close-svg {
@@ -589,22 +595,30 @@ body {
   .hero {
     flex-direction: column;
     overflow: hidden;
-    width: 500px;
+    width: 375px;
     height: 777px;
+    margin-top: 45px;
   }
   .hero .left {
-    margin: 0 auto;
+    margin: 100px auto;
     padding: 0;
+    margin-bottom: unset;
   }
   .hero .left .left-upper .left-upper-h {
     font-size: 40px;
+    margin-left: 28px;
+    margin-top: 87px;
   }
   .hero .left .left-upper .left-upper-p {
-    font-size: 10px;
+    width: 300px;
+    margin: auto;
+    margin-left: 26px;
+    margin-top: 13px;
   }
   .hero .left-under .left-under-first {
     display: flex;
     flex-direction: column;
+    margin-left: 12px;
   }
 
   .hero .right {
@@ -612,21 +626,135 @@ body {
     height: 500px;
   }
   .advertisement {
-    width: 588px;
+    width: 804px;
     height: 72px;
     margin-top: 75px;
-    margin-left: -80px;
+    margin-left: -36px;
+    overflow: hidden;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 75px;
+    margin-left: -122px;
   }
   .advertisement .advertisement-title {
-    font-size: 24px;
+    font-size: 28px;
     display: block;
     margin: 0 0;
+    overflow: hidden;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
   .container {
     width: 100%;
+  }
+
+  .head-list {
+    display: none;
+  }
+  .head-sign {
+    width: 208px;
+  }
+  .mob-close-a {
+    width: 40px;
+    height: 40px;
+    margin-top: 28px;
+  }
+  .header-container {
+    width: 704px;
+  }
+  .header-left {
+    width: 504px;
+  }
+  .head-mobile-navicon {
+    display: flex;
+    width: 46px;
+    height: 29px;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .head-nav {
+    width: 66px;
+    height: 66px;
+  }
+
+  /*MENÜ AÇÇÇÇÇÇÇÇÇ*/
+  .head-is-open {
+    display: flex;
+    z-index: 9999999;
+  }
+
+  /*MENÜ KAPATTTTTTTTTTTT*/
+  .head-is-close {
+    display: none;
+  }
+  .tablet-header {
+    width: 480px;
+    height: 1024px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  body
+    > header.tablet-header.head-is-open
+    > div
+    > div.tab-hidden-cont
+    > div
+    > div.mob-list-menu
+    > ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    width: 190px;
+    height: 400px;
+    justify-content: center;
+    margin-left: 71px;
+  }
+  body
+    > header.tablet-header.head-is-open
+    > div
+    > div.tab-hidden-cont
+    > div
+    > div.mob-list-menu
+    > ul
+    > li
+    > a {
+    color: #121212;
+    font-size: 18px;
+  }
+  body
+    > header.tablet-header.head-is-open
+    > div
+    > div.tab-hidden-cont
+    > div
+    > div.mob-list-menu
+    > ul
+    > li:nth-child(1)
+    > a {
+    font-weight: 900;
+  }
+  .mob-close {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .tablet-head-container {
+    width: 480px;
+    height: 1024px;
+  }
+
+  .mb-image {
+    width: 480px;
+  }
+  .tab-hidden-cont {
+    width: 480px;
+    height: 1024px;
+    background-color: #bea69e;
+  }
+  .mobile-head-left {
+    display: none;
+  }
+  .mobile-head-right {
+    display: none;
   }
   .hero {
     width: 100%;
@@ -738,6 +866,7 @@ body {
 
   .about-us-container {
     width: 335px;
+    margin: unset;
   }
 
   .about-us-title {
@@ -793,6 +922,7 @@ body {
   .about-us-container {
     width: 704px;
     height: 750px;
+    margin: unset;
   }
 
   .about-us-title {
@@ -1012,6 +1142,7 @@ body {
     width: 335px;
     margin: auto;
     margin-top: 70px;
+    margin-bottom: 20px !important;
   }
   .reviews-container {
     width: 335px;
@@ -1099,7 +1230,7 @@ body {
   }
   .reviews-section {
     width: 704px;
-    margin: auto;
+    margin: unset;
     margin-top: 40px;
   }
   .reviews-container {
@@ -1370,7 +1501,7 @@ body {
 /* Mobile */
 @media (max-width: 767px) {
   .our-courses-section {
-    width: 704px;
+    width: 375px;
     height: 1054px;
   }
   .our {
@@ -1385,6 +1516,7 @@ body {
   }
   .our-courses-container {
     margin: 0;
+    width: 335px;
     height: 1400px;
   }
   .our-courses-cart {
@@ -1661,7 +1793,7 @@ body {
     height: 593px;
     flex-direction: row;
     padding: unset;
-    margin: auto;
+    margin: unset;
     flex-wrap: wrap;
   }
   .our-mentors .our-mentors-container .our-mentors-ul .our-mentors-li {
@@ -1707,6 +1839,10 @@ body {
   padding: 20px;
   display: flex;
   gap: 200px;
+  height: 680px;
+}
+.reviews-section {
+  margin-bottom: 150px;
 }
 
 .signup-section {
@@ -1888,7 +2024,7 @@ body {
 @media (max-width: 1279px) {
   .signup-container {
     flex-direction: column;
-    align-items: center;
+    align-items: unset;
   }
 
   .signup-image-section {
@@ -2162,7 +2298,9 @@ body {
     width: 768px;
     margin: auto;
   }
-
+  .header {
+    width: 768px;
+  }
   .footer {
     display: flex;
     justify-content: space-around;
@@ -2274,7 +2412,7 @@ body {
   .fifth-div {
     display: flex;
     margin-bottom: 40px;
-    width: 1200px;
+    width: 768px;
     gap: 72px;
     justify-content: space-between;
   }
