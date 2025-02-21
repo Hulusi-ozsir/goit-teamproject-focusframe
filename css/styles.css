@@ -28,6 +28,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 20px auto;
+  margin-bottom: 80px;
 }
 .header-container {
   display: flex;
@@ -1020,6 +1021,7 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
+  margin-top: 150px;
 }
 .our {
   gap: 10px;
@@ -1612,6 +1614,8 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-top: 120px;
+  margin-bottom: 70px;
 }
 .our-mentors .our-mentors-container .our-mentors-title {
   color: #fff;
@@ -2077,7 +2081,6 @@ body {
 }
 .second-div {
   margin-bottom: 40px;
-  font-family: DM Sans;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -2098,11 +2101,16 @@ body {
   width: 214px;
   height: 146px;
   gap: 100px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 45px;
+  letter-spacing: 0%;
 }
 .footer-a {
   font-weight: 400;
   font-size: 14px;
-  line-height: 18.23px;
+  line-height: 18, 23px;
   letter-spacing: 0%;
   text-decoration: none;
   list-style: none;
@@ -2311,7 +2319,6 @@ body {
     width: 768px;
     height: 331px;
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     gap: 20px;
   }
@@ -2343,7 +2350,6 @@ body {
   }
   .second-div {
     margin-bottom: 40px;
-    font-family: DM Sans;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
