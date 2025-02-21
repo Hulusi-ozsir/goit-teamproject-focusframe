@@ -2121,8 +2121,11 @@ body {
   height: 86px;
 }
 .ftr-menu-div {
-  width: 97px;
-  height: 146px;
+  width: 105px;
+  height: 350px;
+}
+.ftr-ul {
+  width: 120px;
 }
 .forth-div {
   margin-bottom: 60px;
